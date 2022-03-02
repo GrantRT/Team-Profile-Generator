@@ -31,7 +31,7 @@ const teamMemberChoice = () => {
           internQuestions();
           break;
         default:
-          writeToFile('index.html', JSON.stringify(teamMemberArr));
+          writeToFile('index.html', teamMemberArr);
           console.log(teamMemberArr);
       }
     });
