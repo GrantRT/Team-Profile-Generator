@@ -1,6 +1,6 @@
 function generateHtml(teamMembers) {
   const htmlString = teamMembers.reduce((string, employee) => {
-    return string + `\t<li> job role: ${employee.constructor.name}\n name: ${employee.name}\n ID: ${employee.id}\n email: ${employee.email}\n ${employee.render()}</li>\n`;
+    return string + `\t<li> job role: ${employee.getRole()}\n name: ${employee.getName()}\n ID: ${employee.getId()}\n email: ${employee.getEmail()}\n ${employee.render()}</li>\n`;
   }, '\n');
 
   const list = renderList(htmlString);
