@@ -33,7 +33,7 @@ function generateHtml(teamMembers) {
     <title>Document</title>
   </head>
   <body>
-    <header class="relative w-full flex flex-wrap items-center justify-between py-20 shadow-lg">
+    <header class="relative w-full flex flex-wrap items-center justify-between py-10 shadow-lg">
       <div class="container-fluid w-full flex flex-wrap items-center justify-around px-6">
         <div class="container-fluid">
           <h1 class="text-xl">My Team</h1>
