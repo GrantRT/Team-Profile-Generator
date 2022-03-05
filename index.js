@@ -32,7 +32,6 @@ const teamMemberChoice = () => {
           break;
         default:
           writeToFile('index.html', teamMemberArr);
-          console.log(teamMemberArr);
       }
     });
 };
@@ -131,9 +130,7 @@ const internQuestions = () => {
       },
     ])
     .then((answers) => {
-      // console.log(answers);
       const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool);
-      // console.log(intern);
       teamMemberArr.push(intern);
       teamMemberChoice();
     });
@@ -146,4 +143,3 @@ function writeToFile(fileName, data) {
 
 // Function call to initialise the app
 teamMemberChoice();
-// managerQuestions();

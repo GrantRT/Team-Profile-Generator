@@ -21,7 +21,6 @@ function generateHtml(teamMembers) {
 
   const employeeData = renderEmployeeData(htmlString);
 
-  console.log(employeeData);
   return `<!DOCTYPE html>
 <html lang="en">
   <head>
