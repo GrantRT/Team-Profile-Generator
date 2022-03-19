@@ -10,6 +10,7 @@ A Node.js command-line application that takes in information about employees on 
 - CSS
 - Tailwind CSS
 - Javascript
+- Node.js
 
 ## Instructions
 
